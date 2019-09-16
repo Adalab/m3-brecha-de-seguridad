@@ -23,7 +23,7 @@ class App extends React.Component {
         this.setState({
           data: results.data
         })
-      })
+      });
   }
 
   handleInputValue(event) {
